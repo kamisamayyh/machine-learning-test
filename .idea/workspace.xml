@@ -16,14 +16,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="house-prices.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/keras/house-prices.py">
+      <file leaf-file-name="house-prices.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras/house-prices/house-prices.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            <state relative-caret-position="628">
+              <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
               <folding>
                 <element signature="e#11#30#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data-simulation.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/keras/house-prices/data-simulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="47">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Predictions.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras/house-prices/Predictions.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/test.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-13175">
+              <caret line="752" column="52" selection-start-line="752" selection-start-column="52" selection-end-line="752" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -39,7 +66,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RoundID</find>
       <find>dataF</find>
       <find>MatchID</find>
       <find>300186500</find>
@@ -69,6 +95,7 @@
       <find>Alley</find>
       <find>BsmtQual</find>
       <find>train</find>
+      <find>N</find>
     </findStrings>
     <dirStrings>
       <dir>E:\pythonProject\machine-learning-test\tensorflow\logs</dir>
@@ -114,13 +141,15 @@
         <option value="$PROJECT_DIR$/keras/practice-4.py" />
         <option value="$PROJECT_DIR$/sklearn/house-prices.py" />
         <option value="$PROJECT_DIR$/keras/house-prices.py" />
+        <option value="$PROJECT_DIR$/keras/house-prices/house-prices.py" />
+        <option value="$PROJECT_DIR$/keras/house-prices/data-simulation.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="532" />
-    <option name="y" value="86" />
-    <option name="width" value="1187" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="42" />
+    <option name="y" value="102" />
+    <option name="width" value="570" />
     <option name="height" value="703" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +170,19 @@
               <item name="machine-learning-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="machine-learning-test" type="462c0819:PsiDirectoryNode" />
               <item name="keras" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine-learning-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine-learning-test" type="462c0819:PsiDirectoryNode" />
+              <item name="keras" type="462c0819:PsiDirectoryNode" />
+              <item name="house-prices" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="machine-learning-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="machine-learning-test" type="462c0819:PsiDirectoryNode" />
+              <item name="keras" type="462c0819:PsiDirectoryNode" />
+              <item name="house-prices" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="machine-learning-test" type="b2602c69:ProjectViewProjectNode" />
@@ -173,10 +215,11 @@
       <recent name="E:\pythonProject\machine-learning-test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\pythonProject\machine-learning-test\keras\house-prices\raw" />
+      <recent name="E:\pythonProject\machine-learning-test\keras\house-prices" />
       <recent name="E:\pythonProject\machine-learning-test\keras" />
       <recent name="E:\pythonProject\machine-learning-test\keras\data" />
       <recent name="E:\pythonProject\machine-learning-test\keras\data\glove.6B" />
-      <recent name="E:\pythonProject\machine-learning-test\tensorflow" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -191,7 +234,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.house-prices (1)">
+  <component name="RunManager" selected="Python.data-simulation">
+    <configuration name="data-simulation" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="machine-learning-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras/house-prices" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/house-prices/data-simulation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="house-prices (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="machine-learning-test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -204,7 +265,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/house-prices.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonProject\machine-learning-test\keras\house-prices\house-prices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,7 +283,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\pythonProject\machine-learning-test\keras\house-prices.py" />
+      <option name="SCRIPT_NAME" value="E:\pythonProject\machine-learning-test\keras\house-prices\house-prices.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -241,24 +302,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/practice-1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="practice-4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="machine-learning-test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/keras" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras/practice-4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,18 +327,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.practice-1" />
-      <item itemvalue="Python.practice-4" />
       <item itemvalue="Python.test1" />
       <item itemvalue="Python.house-prices" />
       <item itemvalue="Python.house-prices (1)" />
+      <item itemvalue="Python.data-simulation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.data-simulation" />
         <item itemvalue="Python.house-prices (1)" />
         <item itemvalue="Python.house-prices" />
         <item itemvalue="Python.test1" />
         <item itemvalue="Python.practice-1" />
-        <item itemvalue="Python.practice-4" />
       </list>
     </recent_temporary>
   </component>
@@ -313,15 +356,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="63" width="1187" height="703" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3046127" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.28546563" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30851063" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28760332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -363,20 +406,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keras/poetry_generator_Keras/data_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras/data/20_newsgroup/sci.med/57110">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../tensorflow/practice1/mian.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2565" />
@@ -611,12 +640,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/raw/HousePrices/data_description.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras/raw/HousePrices/PRSA_data_2010.1.1-2014.12.31.csv">
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/PRSA_data_2010.1.1-2014.12.31.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
@@ -666,21 +690,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/raw/HousePrices/sample_submission.csv">
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/sample_submission.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/raw/HousePrices/test.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="10" column="303" selection-start-line="10" selection-start-column="303" selection-end-line="10" selection-end-column="303" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keras/raw/HousePrices/train.csv">
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/train.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
@@ -707,13 +724,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keras/house-prices.py">
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/data_description.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/raw/test.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        <state relative-caret-position="-13175">
+          <caret line="752" column="52" selection-start-line="752" selection-start-column="52" selection-end-line="752" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/Predictions.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/house-prices.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="50" column="23" lean-forward="true" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
           <folding>
             <element signature="e#11#30#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keras/house-prices/data-simulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
